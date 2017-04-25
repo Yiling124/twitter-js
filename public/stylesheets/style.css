@@ -1,0 +1,34 @@
+
+#wrap > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+#footer > .container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+.tweetbox {
+  padding: 7px;
+}
+
+.tweetbox img {
+  float: left;
+  height: 48px;
+  width: 48px;
+  content:url("http://lorempixel.com/48/48");
+}
+.content {
+  margin-left: 60px;
+}
+.content .by {
+  font-weight: bold;
+}
+ 
