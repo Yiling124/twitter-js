@@ -40,6 +40,8 @@ app.get('/', function (req, res, next) {
 
 
 // static routing 
+app.use(express.static('public'));
+app.use(express.static('views'));
 app.get("/", function(req, res, next){
 	res.sendFile("/public/stylesheets/style.css")
 })
